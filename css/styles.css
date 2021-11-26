@@ -1,0 +1,88 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #4B0082;
+	color: #fff;
+   font-size: 16px;
+   font-family: 'Oxygen', sans-serif;
+}
+/*header*/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+  margin-top:-10px;
+  padding: 20px; 
+}
+
+.navbar-brand {
+  padding: 20px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .5;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list{
+	margin-top: 20px;
+	font-size: 1.3em;
+}
+#nav-list a{
+	color: #951C49;
+    text-align: center
+}
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+#phone div{
+	color: green;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px solid #61122f;
+}
+/*header end*/
+/*main-content*/
+#main-content h2{
+	color: MediumVioletRed;
+	text-align: center;
+	margin:20px;
+}
+
+#main-content div section{
+	border: 1px solid white;
+	padding: 20px;
+	margin-top: 20px; 
+	margin-bottom: 50px;  
+}
+div section{
+	text-align: justify;
+}
+section h3{
+	text-align: center;
+	color:#7CFC00;
+	margin-top: 5px;
+}
+/*main end*/
+@media (max-width: 767px)
+{ 
+	#call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+    }
+}
